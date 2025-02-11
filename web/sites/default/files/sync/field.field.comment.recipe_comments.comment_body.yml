@@ -1,0 +1,22 @@
+uuid: 6f94457a-d9a3-4bb7-b63d-8117e5510262
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.recipe_comments
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.recipe_comments.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: recipe_comments
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

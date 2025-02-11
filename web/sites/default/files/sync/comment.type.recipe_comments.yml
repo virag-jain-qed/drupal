@@ -1,0 +1,8 @@
+uuid: 92a245b0-0584-4375-aca0-6c28c29991aa
+langcode: en
+status: true
+dependencies: {  }
+id: recipe_comments
+label: 'Recipe Comments'
+target_entity_type_id: node
+description: ''

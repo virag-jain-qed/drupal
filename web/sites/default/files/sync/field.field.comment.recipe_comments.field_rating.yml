@@ -1,0 +1,23 @@
+uuid: c82c1525-5ea1-40c5-8ad0-0659f1db2acf
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.recipe_comments
+    - field.storage.comment.field_rating
+id: comment.recipe_comments.field_rating
+field_name: field_rating
+entity_type: comment
+bundle: recipe_comments
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1.0
+  max: 5.0
+  prefix: ''
+  suffix: ''
+field_type: decimal

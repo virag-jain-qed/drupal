@@ -1,0 +1,20 @@
+uuid: f5c35de9-bfc1-4cc0-b1bc-cc5cda3672f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.field_rating
+field_name: field_rating
+entity_type: comment
+type: decimal
+settings:
+  precision: 10
+  scale: 1
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+uuid: 1318dff7-78d7-47e8-a306-e48ffa5f07f2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Recipe Category'
+vid: recipe_category
+description: 'Taxonomy for Recipes'
+weight: 0
+new_revision: false

@@ -1,0 +1,21 @@
+uuid: 68fafe7c-10ef-40ca-9ae0-8c41a67602dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recipe
+  module:
+    - block_content
+    - node
+    - toolbar
+id: chef
+label: Chef
+weight: 4
+is_admin: false
+permissions:
+  - 'access block library'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create recipe content'
+  - 'delete own recipe content'
+  - 'edit own recipe content'
