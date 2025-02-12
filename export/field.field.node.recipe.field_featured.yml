@@ -1,0 +1,21 @@
+uuid: df6f82cd-7c74-4358-83af-defb24fecde3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured
+    - node.type.recipe
+id: node.recipe.field_featured
+field_name: field_featured
+entity_type: node
+bundle: recipe
+label: Featured
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

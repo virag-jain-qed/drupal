@@ -1,0 +1,25 @@
+uuid: 010b420c-94f1-47b6-9577-d5279f90f190
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8e5edec9-baf5-460d-b367-3fabeb27dc77'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_customcontentblock
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:8e5edec9-baf5-460d-b367-3fabeb27dc77'
+settings:
+  id: 'block_content:8e5edec9-baf5-460d-b367-3fabeb27dc77'
+  label: 'Custom Content Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

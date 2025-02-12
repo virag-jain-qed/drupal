@@ -1,0 +1,39 @@
+uuid: 303be954-48fc-439c-ad2d-04c1d4f30b69
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.recipe_comments
+    - field.field.comment.recipe_comments.comment_body
+    - field.field.comment.recipe_comments.field_rating
+  module:
+    - text
+id: comment.recipe_comments.default
+targetEntityType: comment
+bundle: recipe_comments
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_rating:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }
