@@ -10,8 +10,8 @@ sites/default/services.yml
 sites/default/files/
 
 # Ignore database dumps
-*.sql
-*.sql.gz
+# *.sql
+# *.sql.gz
 
 # Ignore temporary files and caches
 sites/default/files/php/
@@ -27,3 +27,8 @@ yarn-debug.log
 .vscode/
 .DS_Store
 *.log
+
+# Do not ignore taxonomy configuration files (vocabularies and terms)
+!config/sync/taxonomy.vocabulary.*.yml
+!config/sync/taxonomy.term.*.yml
+!config/sync/taxonomy.settings.yml
